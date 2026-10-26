@@ -1,5 +1,7 @@
 # Acyclic SwarmClient: empty SSE event-name fix
 
+> Historical proof only. During final validation on October 26, 2026, upstream main changed to `8306ec747b75f5304197f2cea6fcdec5cde03c00` and no longer contained `typescript/packages/swarm`. This reproduction applies only to the pinned older commit below. It is not a current-main fix or an active hiring submission. No outreach email was sent.
+
 A small, reproducible protocol-compatibility fix for the public TypeScript SwarmClient in [acyclic-labs/sdk](https://github.com/acyclic-labs/sdk), pinned to commit `a52093dc6d871165adef437aae1c9cd81166c100` (checked October 26, 2026).
 
 ## The gap
